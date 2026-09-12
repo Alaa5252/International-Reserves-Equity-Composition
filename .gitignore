@@ -1,0 +1,23 @@
+# Stata temporary files
+*.stswp
+
+# Generated analysis data
+data/derived/*
+
+# Generated figures and logs
+output/figures/*
+output/logs/*
+
+# Reference PDFs kept locally only
+references/pdfs/
+
+# Microsoft Office temporary files
+~$*.xlsx
+~$*.docx
+
+# Windows/macOS system files
+Thumbs.db
+.DS_Store
+
+# Stata graph files
+*.gph
