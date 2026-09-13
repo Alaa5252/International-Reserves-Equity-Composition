@@ -24,20 +24,20 @@ The analysis draws on publicly available data from the following sources:
 
 The main input files include variables for:
 
-- foreign portfolio equity liabilities;
-- foreign direct investment liabilities;
-- the FPI share in total foreign equity investment;
-- international reserves;
-- total external liabilities;
+- Foreign portfolio equity liabilities;
+- Foreign direct investment liabilities;
+- The FPI share in total foreign equity investment;
+- International reserves;
+- Total external liabilities;
 - GDP and GDP per capita;
 - GDP-per-capita growth;
-- trade openness;
-- natural-resource rents;
-- institutional-quality indicators;
-- exchange-rate regimes;
+- Trade openness;
+- Natural-resource rents;
+- Institutional-quality indicators;
+- Exchange-rate regimes;
 - VIX measures;
-- the U.S. three-month Treasury-bill rate; and
-- the advanced-economy / EMDE classification.
+- The U.S. three-month Treasury-bill rate; and
+- The advanced-economy / EMDE classification.
 
 See `../variable_dictionary.xlsx` for the mapping between variable descriptions, Stata variable names, and notation used in the paper.
 
