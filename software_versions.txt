@@ -1,11 +1,13 @@
 Software Environment
 ====================
 
-Stata:
+Stata
+-----
 StataNow/SE 19.5 for Windows (64-bit x86-64)
 Revision 12 Nov 2025
 
-User-written Stata packages used in the replication:
+User-Written Stata Packages
+---------------------------
 
 xtendothresdpd
 Version 1.0.1
@@ -19,8 +21,10 @@ xthreg
 Version 2014-Jan-9
 
 moremata
-Mata library installed and available during replication.
+Mata library installed and available during the final replication run.
 
-Notes:
+Notes
+-----
 The master do-file checks for the required user-written commands and installs them when unavailable.
+
 Machine-specific installation paths and license information are intentionally omitted.
