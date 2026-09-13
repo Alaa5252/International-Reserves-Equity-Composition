@@ -4,12 +4,11 @@
 \## Overview
 
 
-
-This repository contains the Stata code and data required to reproduce the empirical results and figures reported in the associated working paper.
-
+This repository contains the Stata code and data required to reproduce the empirical results and figures reported in the paper.
 
 
-The analysis uses an annual panel of 110 countries over 2001–2020 and examines the relationships among the composition of foreign equity investment, international reserve coverage, and global financial risk.
+
+The analysis uses an annual panel of 110 countries over 2001–2020 and examines the relationships among the composition of foreign equity investment, international reserves, and global financial risk.
 
 
 
@@ -41,7 +40,6 @@ The master do-file checks for and, when necessary, installs the following user-w
 
 
 
-An internet connection may therefore be required on the first run if these packages are not already installed.
 
 
 
@@ -53,7 +51,7 @@ See `software\_versions.txt` for the software environment used for the final rep
 
 
 
-\- `master.do` — master replication file that runs the complete analysis from data preparation through the final empirical results.
+\- `master.do` — master replication file that runs the complete analysis.
 
 \- `variable\_dictionary.xlsx` — crosswalk between variable descriptions, Stata variable names, and notation used in the paper.
 
