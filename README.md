@@ -43,3 +43,66 @@ See `software_versions.txt` for the software environment used for the final repl
 
 ```stata
 do master.do
+```
+
+No user-specific paths need to be changed.
+
+The master do-file first constructs:
+
+```text
+data/derived/analysis_data.dta
+```
+
+from the source files contained in:
+
+```text
+data/input/
+```
+
+It then runs the complete descriptive and empirical analysis.
+
+Generated figures are saved in:
+
+```text
+output/figures/
+```
+
+The complete Stata replication log is saved in:
+
+```text
+output/logs/master.log
+```
+
+## Data Sources
+
+The analysis combines publicly available data from several sources, including:
+
+- External Wealth of Nations Database
+- World Development Indicators
+- Worldwide Governance Indicators
+- CBOE via FRED
+- Federal Reserve Economic Data (FRED)
+- Ilzetzki, Reinhart, and Rogoff exchange-rate-regime classifications
+
+Detailed variable definitions and data sources are provided in the paper.
+
+## Variable Dictionary
+
+`variable_dictionary.xlsx` provides a crosswalk between:
+
+1. the economic description of each variable;
+2. the Stata variable name used in `master.do`; and
+3. the notation used in the paper.
+
+The prefixes `L1_` and `L2_` denote first and second annual lags, respectively.
+
+Variables created during the replication, such as lagged variables and selected transformations, are generated within `master.do`.
+
+## Contact
+
+**Alaa Al-Bashir**  
+Ph.D. Candidate, Department of Economics  
+Texas Tech University  
+
+aalbashi@ttu.edu  
+ala.alazzam100@gmail.com
