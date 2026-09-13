@@ -1,13 +1,4 @@
-\# International Reserves, Global Financial Risk, and the Composition of Foreign Equity Investment
-
-
-
-Replication files for:
-
-
-
-\*\*Alaa Al-Bashir, "International Reserves, Global Financial Risk, and the Composition of Foreign Equity Investment in the Recent Era of Financial Globalization."\*\*
-
+\# Replication files for: "International Reserves, Global Financial Risk, and the Composition of Foreign Equity Investment in the Recent Era of Financial Globalization." By: Alaa Al-Bashir. 
 
 
 \## Overview
